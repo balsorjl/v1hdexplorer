@@ -7,7 +7,7 @@
 install.HDpackages(some.packages, all.packages)
 }
 \arguments{
-\item{some.packages}{Installs only required packages. These include: corrplot,dendextend,factoextra,FactoMineR,ggplot2,gplots,Hmisc,psych,RColorBrewer,RSKC,Rtsne,seriation,sparcl,stats,subspace,tsne, vioplot.}
+\item{some.packages}{Installs only required packages. These include: corrplot,dendextend,factoextra,FactoMineR,ggplot2,gplots,Hmisc,psych,RColorBrewer,RSKC,Rtsne,seriation,sparcl,stats,tsne, vioplot.}
 
 \item{all.packages}{Installs all packages contained in 'some.packages' as well as additional recommended packages. Additional packages include: autoimage,data.table,d3heatmap,dendsort,GGally,ggpubr,ggrepel,gridExtra,miscTools,plotrix,plyr,reshape, scales}
 }
