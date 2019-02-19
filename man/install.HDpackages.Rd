@@ -4,13 +4,19 @@
 \alias{install.HDpackages}
 \title{Installs Packages}
 \usage{
-install.HDpackages(all.packages, some.packages)
+install.HDpackages(some.packages, all.packages)
 }
 \arguments{
-\item{all.packages}{Installs all available packages}
+\item{some.packages}{Installs only required packages. These include: corrplot,dendextend,factoextra,FactoMineR,ggplot2,gplots,Hmisc,psych,RColorBrewer,RSKC,Rtsne,seriation,sparcl,stats,subspace,tsne, vioplot.}
 
-\item{some.packages}{Installs only required packages}
+\item{all.packages}{Installs all packages contained in 'some.packages' as well as additional recommended packages. Additional packages include: autoimage,data.table,d3heatmap,dendsort,GGally,ggpubr,ggrepel,gridExtra,miscTools,plotrix,plyr,reshape, scales}
+}
+\value{
+This will consult CRAN for the desired set of packages and install them in your package library. Some packages will ask if you would like to compile them (y/n), and the install process takes some time.
 }
 \description{
 Installs Packages
+}
+\examples{
+install.HDpackages(some.packages=TRUE) #Will install the packages in some.packages
 }
