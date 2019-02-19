@@ -10,6 +10,6 @@ Description: Installs and loads the packages required for high-dimensional data 
 License: CC0
 Encoding: UTF-8
 LazyData: true
-Imports: 
+Depends: 
     easypackages
 RoxygenNote: 6.1.1
